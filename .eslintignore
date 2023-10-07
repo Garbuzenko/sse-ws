@@ -1,1 +1,4 @@
-public
+dist
+coverage
+doc
+webpack.*.js
