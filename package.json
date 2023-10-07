@@ -1,0 +1,38 @@
+{
+  "name": "ahj-hw.-8-sse-ws.-1-chat-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "stop": "forever stop server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garbuzenko/sse-ws.git"
+  },
+  "author": "garbuzenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garbuzenko/sse-ws"
+  },
+  "homepage": "https://github.com/garbuzenko/sse-ws",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "ws": "^7.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
