@@ -1,4 +1,4 @@
-**CI** [![Build status](https://ci.appveyor.com/api/projects/status/u917ygal8ek6kqei?svg=true)](https://ci.appveyor.com/project/garbuzenko/sse-ws) [GitHub Pages](https://garbuzenko.github.io/sse-ws/)
+**CI** [![Build status](https://ci.appveyor.com/api/projects/status/gx2q10bnxe77vx39?svg=true)](https://ci.appveyor.com/project/garbuzenko/sse-ws) [GitHub Pages](https://garbuzenko.github.io/sse-ws/)
 
 # 8. Домашнее задание к лекции «EventSource, WebSockets»
 
